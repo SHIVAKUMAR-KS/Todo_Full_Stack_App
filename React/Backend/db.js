@@ -7,7 +7,7 @@ Todo{
 */
 const mongoose = require("mongoose");
 
-mongoose.connect("mongodb+srv://shiva:a99jr8erSMuPbvSv@cluster0.n7eusza.mongodb.net/todos");
+mongoose.connect("/todos");
 const todoSchema = mongoose.Schema({
     title: String,
     description: String,
